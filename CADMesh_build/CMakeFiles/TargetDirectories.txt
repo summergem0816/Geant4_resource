@@ -1,0 +1,9 @@
+/home/machinem/projects/CADMesh/build/CMakeFiles/install/strip.dir
+/home/machinem/projects/CADMesh/build/CMakeFiles/install/local.dir
+/home/machinem/projects/CADMesh/build/CMakeFiles/edit_cache.dir
+/home/machinem/projects/CADMesh/build/CMakeFiles/package_source.dir
+/home/machinem/projects/CADMesh/build/CMakeFiles/install.dir
+/home/machinem/projects/CADMesh/build/CMakeFiles/list_install_components.dir
+/home/machinem/projects/CADMesh/build/CMakeFiles/rebuild_cache.dir
+/home/machinem/projects/CADMesh/build/CMakeFiles/package.dir
+/home/machinem/projects/CADMesh/build/CMakeFiles/cadmesh.dir

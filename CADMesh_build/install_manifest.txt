@@ -1,0 +1,4 @@
+/usr/local/lib/cmake/cadmesh-2.0.0/cadmesh-config.cmake
+/usr/local/include/CADMesh.hh
+/usr/local/include/Configuration.hh
+/usr/local/lib/libcadmesh.so
