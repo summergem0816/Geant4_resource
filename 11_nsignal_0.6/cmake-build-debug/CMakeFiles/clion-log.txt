@@ -1,0 +1,13 @@
+/opt/clion-2020.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/gy/project/TMV/nsingle
+-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found suitable version "2.2.9", minimum required is "2.2.9") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Found Threads: TRUE  
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/gy/project/TMV/nsingle/cmake-build-debug

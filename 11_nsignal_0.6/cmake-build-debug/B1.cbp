@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="B1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\geant4\;CMake Files\..\..\..\geant4\build\;CMake Files\..\..\..\geant4\build\source\;CMake Files\..\..\..\geant4\build\source\externals\;CMake Files\..\..\..\geant4\build\source\externals\ptl\;CMake Files\..\..\..\geant4\build\Modules\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5OpenGL\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/gy/project/TMV/nsingle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/gy/project/TMV/nsingle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/gy/project/TMV/nsingle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/gy/project/TMV/nsingle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/gy/project/TMV/nsingle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exampleB1">
+				<Option output="/home/gy/project/TMV/nsingle/cmake-build-debug/exampleB1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gy/project/TMV/nsingle/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DG4UI_USE_TCSH"/>
+					<Add option="-DG4INTY_USE_QT"/>
+					<Add option="-DG4UI_USE_QT"/>
+					<Add option="-DG4VIS_USE_OPENGLQT"/>
+					<Add option="-DG4VIS_USE_OPENGL"/>
+					<Add option="-DG4LIB_BUILD_DLL"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_OPENGL_LIB"/>
+					<Add option="-DQT_PRINTSUPPORT_LIB"/>
+					<Add directory="/home/gy/project/TMV/nsingle/include"/>
+					<Add directory="/home/gy/geant4/src/source/analysis/g4tools/include"/>
+					<Add directory="/home/gy/geant4/src/source/analysis/accumulables/include"/>
+					<Add directory="/home/gy/geant4/src/source/analysis/csv/include"/>
+					<Add directory="/home/gy/geant4/src/source/analysis/factory/include"/>
+					<Add directory="/home/gy/geant4/src/source/analysis/hntools/include"/>
+					<Add directory="/home/gy/geant4/src/source/analysis/management/include"/>
+					<Add directory="/home/gy/geant4/src/source/analysis/root/include"/>
+					<Add directory="/home/gy/geant4/src/source/analysis/xml/include"/>
+					<Add directory="/home/gy/geant4/src/source/digits_hits/detector/include"/>
+					<Add directory="/home/gy/geant4/src/source/digits_hits/digits/include"/>
+					<Add directory="/home/gy/geant4/src/source/digits_hits/hits/include"/>
+					<Add directory="/home/gy/geant4/src/source/digits_hits/scorer/include"/>
+					<Add directory="/home/gy/geant4/src/source/digits_hits/utils/include"/>
+					<Add directory="/home/gy/geant4/src/source/error_propagation/include"/>
+					<Add directory="/home/gy/geant4/src/source/event/include"/>
+					<Add directory="/home/gy/geant4/src/source/externals/clhep/include"/>
+					<Add directory="/home/gy/geant4/src/source/externals/zlib/include"/>
+					<Add directory="/home/gy/geant4/src/source/geometry/biasing/include"/>
+					<Add directory="/home/gy/geant4/src/source/geometry/divisions/include"/>
+					<Add directory="/home/gy/geant4/src/source/geometry/magneticfield/include"/>
+					<Add directory="/home/gy/geant4/build/source/geometry/include"/>
+					<Add directory="/home/gy/geant4/src/source/geometry/management/include"/>
+					<Add directory="/home/gy/geant4/src/source/geometry/navigation/include"/>
+					<Add directory="/home/gy/geant4/src/source/geometry/solids/Boolean/include"/>
+					<Add directory="/home/gy/geant4/src/source/geometry/solids/CSG/include"/>
+					<Add directory="/home/gy/geant4/src/source/geometry/solids/specific/include"/>
+					<Add directory="/home/gy/geant4/src/source/geometry/volumes/include"/>
+					<Add directory="/home/gy/geant4/src/source/global/HEPGeometry/include"/>
+					<Add directory="/home/gy/geant4/src/source/global/HEPNumerics/include"/>
+					<Add directory="/home/gy/geant4/src/source/global/HEPRandom/include"/>
+					<Add directory="/home/gy/geant4/build/source/global/include"/>
+					<Add directory="/home/gy/geant4/src/source/global/management/include"/>
+					<Add directory="/home/gy/geant4/src/source/graphics_reps/include"/>
+					<Add directory="/home/gy/geant4/src/source/intercoms/include"/>
+					<Add directory="/home/gy/geant4/src/source/interfaces/GAG/include"/>
+					<Add directory="/home/gy/geant4/src/source/interfaces/basic/include"/>
+					<Add directory="/home/gy/geant4/src/source/interfaces/common/include"/>
+					<Add directory="/home/gy/geant4/src/source/materials/include"/>
+					<Add directory="/home/gy/geant4/src/source/parameterisations/gflash/include"/>
+					<Add directory="/home/gy/geant4/src/source/particles/adjoint/include"/>
+					<Add directory="/home/gy/geant4/src/source/particles/bosons/include"/>
+					<Add directory="/home/gy/geant4/src/source/particles/hadrons/barions/include"/>
+					<Add directory="/home/gy/geant4/src/source/particles/hadrons/ions/include"/>
+					<Add directory="/home/gy/geant4/src/source/particles/hadrons/mesons/include"/>
+					<Add directory="/home/gy/geant4/src/source/particles/leptons/include"/>
+					<Add directory="/home/gy/geant4/src/source/particles/management/include"/>
+					<Add directory="/home/gy/geant4/src/source/particles/shortlived/include"/>
+					<Add directory="/home/gy/geant4/src/source/particles/utils/include"/>
+					<Add directory="/home/gy/geant4/src/source/persistency/ascii/include"/>
+					<Add directory="/home/gy/geant4/src/source/persistency/mctruth/include"/>
+					<Add directory="/home/gy/geant4/src/source/physics_lists/builders/include"/>
+					<Add directory="/home/gy/geant4/src/source/physics_lists/constructors/decay/include"/>
+					<Add directory="/home/gy/geant4/src/source/physics_lists/constructors/electromagnetic/include"/>
+					<Add directory="/home/gy/geant4/src/source/physics_lists/constructors/factory/include"/>
+					<Add directory="/home/gy/geant4/src/source/physics_lists/constructors/gamma_lepto_nuclear/include"/>
+					<Add directory="/home/gy/geant4/src/source/physics_lists/constructors/hadron_elastic/include"/>
+					<Add directory="/home/gy/geant4/src/source/physics_lists/constructors/hadron_inelastic/include"/>
+					<Add directory="/home/gy/geant4/src/source/physics_lists/constructors/ions/include"/>
+					<Add directory="/home/gy/geant4/src/source/physics_lists/constructors/limiters/include"/>
+					<Add directory="/home/gy/geant4/src/source/physics_lists/constructors/stopping/include"/>
+					<Add directory="/home/gy/geant4/src/source/physics_lists/lists/include"/>
+					<Add directory="/home/gy/geant4/src/source/physics_lists/util/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/biasing/management/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/biasing/generic/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/biasing/importance/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/cuts/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/decay/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/electromagnetic/adjoint/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/electromagnetic/dna/processes/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/electromagnetic/dna/models/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/electromagnetic/dna/utils/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/electromagnetic/dna/management/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/electromagnetic/dna/molecules/management/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/electromagnetic/dna/molecules/types/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/electromagnetic/highenergy/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/electromagnetic/lowenergy/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/electromagnetic/muons/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/electromagnetic/pii/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/electromagnetic/polarisation/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/electromagnetic/standard/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/electromagnetic/utils/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/electromagnetic/xrays/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/cross_sections/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/management/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/abla/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/abrasion/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/binary_cascade/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/cascade/cascade/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/coherent_elastic/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/de_excitation/ablation/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/de_excitation/evaporation/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/de_excitation/fermi_breakup/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/de_excitation/fission/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/de_excitation/gem_evaporation/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/de_excitation/handler/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/de_excitation/management/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/de_excitation/multifragmentation/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/de_excitation/photon_evaporation/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/de_excitation/util/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/em_dissociation/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/fission/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/im_r_matrix/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/inclxx/utils/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/inclxx/incl_physics/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/inclxx/interface/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/gamma_nuclear/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/lend/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/lepto_nuclear/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/management/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/particle_hp/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/parton_string/diffraction/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/parton_string/hadronization/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/parton_string/management/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/parton_string/qgsm/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/pre_equilibrium/exciton_model/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/qmd/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/quasi_elastic/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/radioactive_decay/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/rpg/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/theo_high_energy/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/util/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/processes/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/stopping/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/util/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/management/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/optical/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/solidstate/phonon/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/solidstate/channeling/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/parameterisation/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/scoring/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/transportation/include"/>
+					<Add directory="/home/gy/geant4/src/source/readout/include"/>
+					<Add directory="/home/gy/geant4/src/source/run/include"/>
+					<Add directory="/home/gy/geant4/src/source/tasking/include"/>
+					<Add directory="/home/gy/geant4/src/source/track/include"/>
+					<Add directory="/home/gy/geant4/src/source/tracking/include"/>
+					<Add directory="/home/gy/geant4/src/source/visualization/FukuiRenderer/include"/>
+					<Add directory="/home/gy/geant4/src/source/visualization/HepRep/include"/>
+					<Add directory="/home/gy/geant4/src/source/visualization/RayTracer/include"/>
+					<Add directory="/home/gy/geant4/src/source/visualization/Tree/include"/>
+					<Add directory="/home/gy/geant4/src/source/visualization/VRML/include"/>
+					<Add directory="/home/gy/geant4/src/source/visualization/XXX/include"/>
+					<Add directory="/home/gy/geant4/src/source/visualization/externals/gl2ps/include"/>
+					<Add directory="/home/gy/geant4/src/source/visualization/gMocren/include"/>
+					<Add directory="/home/gy/geant4/src/source/visualization/management/include"/>
+					<Add directory="/home/gy/geant4/src/source/visualization/modeling/include"/>
+					<Add directory="/home/gy/geant4/src/source/visualization/OpenGL/include"/>
+					<Add directory="/home/gy/geant4/src/source/externals/ptl/include"/>
+					<Add directory="/home/gy/geant4/src/source/externals/zlib/src"/>
+					<Add directory="/home/gy/geant4/build/source/externals/zlib"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtOpenGL"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 exampleB1"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exampleB1/fast">
+				<Option output="/home/gy/project/TMV/nsingle/cmake-build-debug/exampleB1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gy/project/TMV/nsingle/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DG4UI_USE_TCSH"/>
+					<Add option="-DG4INTY_USE_QT"/>
+					<Add option="-DG4UI_USE_QT"/>
+					<Add option="-DG4VIS_USE_OPENGLQT"/>
+					<Add option="-DG4VIS_USE_OPENGL"/>
+					<Add option="-DG4LIB_BUILD_DLL"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_OPENGL_LIB"/>
+					<Add option="-DQT_PRINTSUPPORT_LIB"/>
+					<Add directory="/home/gy/project/TMV/nsingle/include"/>
+					<Add directory="/home/gy/geant4/src/source/analysis/g4tools/include"/>
+					<Add directory="/home/gy/geant4/src/source/analysis/accumulables/include"/>
+					<Add directory="/home/gy/geant4/src/source/analysis/csv/include"/>
+					<Add directory="/home/gy/geant4/src/source/analysis/factory/include"/>
+					<Add directory="/home/gy/geant4/src/source/analysis/hntools/include"/>
+					<Add directory="/home/gy/geant4/src/source/analysis/management/include"/>
+					<Add directory="/home/gy/geant4/src/source/analysis/root/include"/>
+					<Add directory="/home/gy/geant4/src/source/analysis/xml/include"/>
+					<Add directory="/home/gy/geant4/src/source/digits_hits/detector/include"/>
+					<Add directory="/home/gy/geant4/src/source/digits_hits/digits/include"/>
+					<Add directory="/home/gy/geant4/src/source/digits_hits/hits/include"/>
+					<Add directory="/home/gy/geant4/src/source/digits_hits/scorer/include"/>
+					<Add directory="/home/gy/geant4/src/source/digits_hits/utils/include"/>
+					<Add directory="/home/gy/geant4/src/source/error_propagation/include"/>
+					<Add directory="/home/gy/geant4/src/source/event/include"/>
+					<Add directory="/home/gy/geant4/src/source/externals/clhep/include"/>
+					<Add directory="/home/gy/geant4/src/source/externals/zlib/include"/>
+					<Add directory="/home/gy/geant4/src/source/geometry/biasing/include"/>
+					<Add directory="/home/gy/geant4/src/source/geometry/divisions/include"/>
+					<Add directory="/home/gy/geant4/src/source/geometry/magneticfield/include"/>
+					<Add directory="/home/gy/geant4/build/source/geometry/include"/>
+					<Add directory="/home/gy/geant4/src/source/geometry/management/include"/>
+					<Add directory="/home/gy/geant4/src/source/geometry/navigation/include"/>
+					<Add directory="/home/gy/geant4/src/source/geometry/solids/Boolean/include"/>
+					<Add directory="/home/gy/geant4/src/source/geometry/solids/CSG/include"/>
+					<Add directory="/home/gy/geant4/src/source/geometry/solids/specific/include"/>
+					<Add directory="/home/gy/geant4/src/source/geometry/volumes/include"/>
+					<Add directory="/home/gy/geant4/src/source/global/HEPGeometry/include"/>
+					<Add directory="/home/gy/geant4/src/source/global/HEPNumerics/include"/>
+					<Add directory="/home/gy/geant4/src/source/global/HEPRandom/include"/>
+					<Add directory="/home/gy/geant4/build/source/global/include"/>
+					<Add directory="/home/gy/geant4/src/source/global/management/include"/>
+					<Add directory="/home/gy/geant4/src/source/graphics_reps/include"/>
+					<Add directory="/home/gy/geant4/src/source/intercoms/include"/>
+					<Add directory="/home/gy/geant4/src/source/interfaces/GAG/include"/>
+					<Add directory="/home/gy/geant4/src/source/interfaces/basic/include"/>
+					<Add directory="/home/gy/geant4/src/source/interfaces/common/include"/>
+					<Add directory="/home/gy/geant4/src/source/materials/include"/>
+					<Add directory="/home/gy/geant4/src/source/parameterisations/gflash/include"/>
+					<Add directory="/home/gy/geant4/src/source/particles/adjoint/include"/>
+					<Add directory="/home/gy/geant4/src/source/particles/bosons/include"/>
+					<Add directory="/home/gy/geant4/src/source/particles/hadrons/barions/include"/>
+					<Add directory="/home/gy/geant4/src/source/particles/hadrons/ions/include"/>
+					<Add directory="/home/gy/geant4/src/source/particles/hadrons/mesons/include"/>
+					<Add directory="/home/gy/geant4/src/source/particles/leptons/include"/>
+					<Add directory="/home/gy/geant4/src/source/particles/management/include"/>
+					<Add directory="/home/gy/geant4/src/source/particles/shortlived/include"/>
+					<Add directory="/home/gy/geant4/src/source/particles/utils/include"/>
+					<Add directory="/home/gy/geant4/src/source/persistency/ascii/include"/>
+					<Add directory="/home/gy/geant4/src/source/persistency/mctruth/include"/>
+					<Add directory="/home/gy/geant4/src/source/physics_lists/builders/include"/>
+					<Add directory="/home/gy/geant4/src/source/physics_lists/constructors/decay/include"/>
+					<Add directory="/home/gy/geant4/src/source/physics_lists/constructors/electromagnetic/include"/>
+					<Add directory="/home/gy/geant4/src/source/physics_lists/constructors/factory/include"/>
+					<Add directory="/home/gy/geant4/src/source/physics_lists/constructors/gamma_lepto_nuclear/include"/>
+					<Add directory="/home/gy/geant4/src/source/physics_lists/constructors/hadron_elastic/include"/>
+					<Add directory="/home/gy/geant4/src/source/physics_lists/constructors/hadron_inelastic/include"/>
+					<Add directory="/home/gy/geant4/src/source/physics_lists/constructors/ions/include"/>
+					<Add directory="/home/gy/geant4/src/source/physics_lists/constructors/limiters/include"/>
+					<Add directory="/home/gy/geant4/src/source/physics_lists/constructors/stopping/include"/>
+					<Add directory="/home/gy/geant4/src/source/physics_lists/lists/include"/>
+					<Add directory="/home/gy/geant4/src/source/physics_lists/util/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/biasing/management/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/biasing/generic/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/biasing/importance/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/cuts/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/decay/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/electromagnetic/adjoint/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/electromagnetic/dna/processes/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/electromagnetic/dna/models/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/electromagnetic/dna/utils/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/electromagnetic/dna/management/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/electromagnetic/dna/molecules/management/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/electromagnetic/dna/molecules/types/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/electromagnetic/highenergy/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/electromagnetic/lowenergy/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/electromagnetic/muons/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/electromagnetic/pii/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/electromagnetic/polarisation/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/electromagnetic/standard/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/electromagnetic/utils/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/electromagnetic/xrays/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/cross_sections/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/management/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/abla/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/abrasion/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/binary_cascade/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/cascade/cascade/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/coherent_elastic/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/de_excitation/ablation/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/de_excitation/evaporation/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/de_excitation/fermi_breakup/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/de_excitation/fission/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/de_excitation/gem_evaporation/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/de_excitation/handler/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/de_excitation/management/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/de_excitation/multifragmentation/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/de_excitation/photon_evaporation/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/de_excitation/util/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/em_dissociation/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/fission/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/im_r_matrix/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/inclxx/utils/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/inclxx/incl_physics/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/inclxx/interface/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/gamma_nuclear/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/lend/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/lepto_nuclear/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/management/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/particle_hp/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/parton_string/diffraction/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/parton_string/hadronization/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/parton_string/management/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/parton_string/qgsm/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/pre_equilibrium/exciton_model/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/qmd/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/quasi_elastic/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/radioactive_decay/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/rpg/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/theo_high_energy/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/models/util/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/processes/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/stopping/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/hadronic/util/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/management/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/optical/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/solidstate/phonon/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/solidstate/channeling/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/parameterisation/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/scoring/include"/>
+					<Add directory="/home/gy/geant4/src/source/processes/transportation/include"/>
+					<Add directory="/home/gy/geant4/src/source/readout/include"/>
+					<Add directory="/home/gy/geant4/src/source/run/include"/>
+					<Add directory="/home/gy/geant4/src/source/tasking/include"/>
+					<Add directory="/home/gy/geant4/src/source/track/include"/>
+					<Add directory="/home/gy/geant4/src/source/tracking/include"/>
+					<Add directory="/home/gy/geant4/src/source/visualization/FukuiRenderer/include"/>
+					<Add directory="/home/gy/geant4/src/source/visualization/HepRep/include"/>
+					<Add directory="/home/gy/geant4/src/source/visualization/RayTracer/include"/>
+					<Add directory="/home/gy/geant4/src/source/visualization/Tree/include"/>
+					<Add directory="/home/gy/geant4/src/source/visualization/VRML/include"/>
+					<Add directory="/home/gy/geant4/src/source/visualization/XXX/include"/>
+					<Add directory="/home/gy/geant4/src/source/visualization/externals/gl2ps/include"/>
+					<Add directory="/home/gy/geant4/src/source/visualization/gMocren/include"/>
+					<Add directory="/home/gy/geant4/src/source/visualization/management/include"/>
+					<Add directory="/home/gy/geant4/src/source/visualization/modeling/include"/>
+					<Add directory="/home/gy/geant4/src/source/visualization/OpenGL/include"/>
+					<Add directory="/home/gy/geant4/src/source/externals/ptl/include"/>
+					<Add directory="/home/gy/geant4/src/source/externals/zlib/src"/>
+					<Add directory="/home/gy/geant4/build/source/externals/zlib"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtOpenGL"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 exampleB1/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="B1">
+				<Option working_dir="/home/gy/project/TMV/nsingle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 B1"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/gy/project/TMV/nsingle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/gy/project/TMV/nsingle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/gy/project/TMV/nsingle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/gy/project/TMV/nsingle/exampleB1.cc">
+			<Option target="exampleB1"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/exampleB1.in">
+			<Option target="exampleB1"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/include/ActionInitialization.hh">
+			<Option target="exampleB1"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/include/DetectorConstruction.hh">
+			<Option target="exampleB1"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/include/EventAction.hh">
+			<Option target="exampleB1"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/include/HistoManager.hh">
+			<Option target="exampleB1"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/include/PhysicsList.hh">
+			<Option target="exampleB1"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/include/PrimaryGeneratorAction.hh">
+			<Option target="exampleB1"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/include/RunAction.hh">
+			<Option target="exampleB1"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/include/SteppingAction.hh">
+			<Option target="exampleB1"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/include/TrackingAction.hh">
+			<Option target="exampleB1"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/src/ActionInitialization.cc">
+			<Option target="exampleB1"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/src/DetectorConstruction.cc">
+			<Option target="exampleB1"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/src/EventAction.cc">
+			<Option target="exampleB1"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/src/HistoManager.cc">
+			<Option target="exampleB1"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/src/PrimaryGeneratorAction.cc">
+			<Option target="exampleB1"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/src/RunAction.cc">
+			<Option target="exampleB1"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/src/SteppingAction.cc">
+			<Option target="exampleB1"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/src/TrackingAction.cc">
+			<Option target="exampleB1"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/exampleB1.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/exampleB1.out">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/init_vis.mac">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/run1.mac">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/run2.mac">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/vis.mac">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../geant4/build/G4EXPATShim.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\geant4\build\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../geant4/build/Geant4Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\geant4\build\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../geant4/build/Geant4ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\geant4\build\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../geant4/build/Geant4LibraryDepends.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\geant4\build\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../geant4/build/Geant4PackageCache.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\geant4\build\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../geant4/build/UseGeant4.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\geant4\build\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../geant4/build/UseGeant4_internal.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\geant4\build\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../geant4/build/source/externals/ptl/PTL-interface.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\geant4\build\source\externals\ptl\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../geant4/build/source/externals/ptl/PTL-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\geant4\build\source\externals\ptl\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../geant4/build/source/externals/ptl/PTLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\geant4\build\source\externals\ptl\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../geant4/build/source/externals/ptl/PTLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\geant4\build\source\externals\ptl\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../geant4/build/Modules/IntelCompileFeatures.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\geant4\build\Modules\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../geant4/build/Modules/MSVCCompileFeatures.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\geant4\build\Modules\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5OpenGL\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5OpenGL\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\"/>
+		</Unit>
+		<Unit filename="/home/gy/project/TMV/nsingle/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupport_QCupsPrinterSupportPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

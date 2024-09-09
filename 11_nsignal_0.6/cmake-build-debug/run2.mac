@@ -1,0 +1,7 @@
+/run/initialize 
+/tracking/verbose 0
+#
+/gun/particle ion
+/gun/ion 38 90
+#
+/run/beamOn 30000

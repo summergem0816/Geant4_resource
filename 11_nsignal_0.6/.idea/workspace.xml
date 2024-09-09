@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="B1" targetName="exampleB1" />
+      <config projectName="B1" targetName="B1" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e0df29db-6b3e-45b5-8e5a-a3e63a25f37d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1krtE5wEkoAxUfUINat2Hd7eSHc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="OCFindUsagesOptions.isSearchForTextOccurrences" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gammaback" />
+  </component>
+  <component name="RunManager" selected="CMake Application.exampleB1">
+    <configuration name="B1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="B1" TARGET_NAME="B1" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exampleB1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="B1" TARGET_NAME="exampleB1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="B1" RUN_TARGET_NAME="exampleB1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.B1" />
+      <item itemvalue="CMake Application.exampleB1" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e0df29db-6b3e-45b5-8e5a-a3e63a25f37d" name="Default Changelist" comment="" />
+      <created>1606470422396</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606470422396</updated>
+      <workItem from="1606470423592" duration="632000" />
+      <workItem from="1606735840923" duration="11208000" />
+      <workItem from="1606822378297" duration="69000" />
+      <workItem from="1606823676278" duration="4457000" />
+      <workItem from="1607232093294" duration="3334000" />
+      <workItem from="1607413550896" duration="323000" />
+      <workItem from="1607414314915" duration="495000" />
+      <workItem from="1607422801975" duration="12302000" />
+      <workItem from="1607501056062" duration="2686000" />
+      <workItem from="1607560577941" duration="227000" />
+      <workItem from="1607837635412" duration="1214000" />
+      <workItem from="1608122880353" duration="52000" />
+      <workItem from="1608123439157" duration="252000" />
+      <workItem from="1610075306665" duration="11283000" />
+      <workItem from="1610187837238" duration="5711000" />
+      <workItem from="1610198686382" duration="2445000" />
+      <workItem from="1611144941957" duration="9639000" />
+      <workItem from="1611216258032" duration="5416000" />
+      <workItem from="1615013415321" duration="22265000" />
+      <workItem from="1615259772949" duration="2534000" />
+      <workItem from="1615287527413" duration="39238000" />
+      <workItem from="1616062803194" duration="563000" />
+      <workItem from="1616063372518" duration="4769000" />
+      <workItem from="1616068592071" duration="137000" />
+      <workItem from="1616068734761" duration="165000" />
+      <workItem from="1616566105880" duration="443000" />
+      <workItem from="1616567420996" duration="6498000" />
+      <workItem from="1617277852474" duration="4385000" />
+      <workItem from="1618117793095" duration="73000" />
+      <workItem from="1618741631464" duration="2207000" />
+      <workItem from="1618743885843" duration="3338000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="543" y="68" width="424" height="491" key="FileChooserDialogImpl" timestamp="1618753377496">
+      <screen x="0" y="28" width="1918" height="860" />
+    </state>
+    <state x="543" y="68" width="424" height="491" key="FileChooserDialogImpl/0.28.1918.860@0.28.1918.860" timestamp="1618753377496" />
+    <state x="1105" y="311" key="com.intellij.ide.util.TipDialog" timestamp="1615287528211">
+      <screen x="0" y="28" width="1918" height="860" />
+    </state>
+    <state x="1105" y="311" key="com.intellij.ide.util.TipDialog/0.28.1918.860@0.28.1918.860" timestamp="1615287528211" />
+    <state x="570" y="76" width="768" height="771" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1616065926154">
+      <screen x="0" y="28" width="1918" height="860" />
+    </state>
+    <state x="570" y="76" width="768" height="771" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.28.1918.860@0.28.1918.860" timestamp="1616065926154" />
+  </component>
+</project>

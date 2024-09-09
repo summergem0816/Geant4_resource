@@ -1,0 +1,30 @@
+
+#
+/run/initialize
+#
+/gps/particle neutron
+
+
+/gps/pos/type Volume
+/gps/pos/shape Para
+/gps/pos/centre 0. 0. 0. cm
+/gps/pos/halfx 50. cm
+/gps/pos/halfy 50. cm
+/gps/pos/halfz 50. cm
+
+/gps/ang/type iso
+
+/gps/ene/type Arb
+/gps/hist/type arb
+/gps/hist/file neutronspectrum.txt
+/gps/hist/inter Lin
+
+
+
+/run/eventModulo 0 1
+/run/printProgress 1000
+#/run/beamOn 100000 225000 get 170000
+/run/beamOn 225000
+
+
+
